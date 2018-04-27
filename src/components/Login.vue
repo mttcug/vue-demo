@@ -17,18 +17,26 @@
 </template>
 
 <style lang="less">
+  @fontSize:0.4rem;
   .login-block{
-    margin: 50px auto;
+    margin: auto 50px;
   }
   fieldset{
     border: 1px solid #A1AAB3;
     box-shadow: 5px 5px 5px lightgray;
     border-radius: 8px;
+    padding:10px 0px;
+    label{
+      font-size: @fontSize;
+    }
     input{
+      display: inline-block;
       border: none;
       width: 60%;
       height: 30px;
       outline: none;
+      padding: 10px 0px;
+      font-size: @fontSize;
     }
   }
 </style>
